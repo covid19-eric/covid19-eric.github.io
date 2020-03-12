@@ -2,6 +2,7 @@ body {
     font-family: 'Work Sans', sans-serif;
     height: 100%;
     margin: 0;
+    overflow-x: hidden;
 }
 
 ul {
@@ -77,6 +78,13 @@ li {
     font-family: 'Work Sans', sans-serif;
     line-height: 50px;
     margin: 50px;
+}
+
+.graph {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .footer {
