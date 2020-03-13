@@ -1,4 +1,11 @@
 <!DOCTYPE html>
+
+<script>
+    if (window.location.host.indexOf('github.io') > -1 && window.location.protocol == "https:"){
+        window.location.protocol = "http";
+    }
+</script>
+
 <html lang="en" dir="ltr">
 
 <head>
@@ -13,11 +20,12 @@
 
     <div class="parallaxbackground">
         <div class="maintitle">
-            GRAPHICAL REPRESENTATION <br> OF COVID-19
+            GRAPH MODELS <br> OF COVID-19
         </div>
 
         <div class="credits">
-            Research and Data Analysis by Eric Feng and Ian Tsai
+            Research and Analysis by Eric Feng and Ian Tsai
+            <br>Data from Johns Hopkins University</br>
         </div>
 
         <button type="button" class="scrolldownbutton" onClick="document.getElementById('main2').scrollIntoView();">
@@ -63,6 +71,7 @@
         C H I N A
         <div class="china">
             <p>China currently has (this many cases) and (this many deaths) but through observation blah blah</p>
+            <p><iframe src="https://www.desmos.com/calculator/gjdesln8ak?embed" width="700px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe></iframe></p>
         </div>
     </div>
 
@@ -72,6 +81,7 @@
         S O U T H&nbsp; &nbsp;K O R E A
         <div class="southkorea">
             <p>South Korea currently has (this many cases) and (this many deaths) but through observation blah blah</p>
+            <p><iframe src="https://www.desmos.com/calculator/04a2cfmkpe?embed" width="700px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe></p>
         </div>
     </div>
 
@@ -81,13 +91,14 @@
         I T A L Y
         <div class="italy">
             <p>Italy currently has (this many cases) and (this many deaths) but through observation blah blah</p>
+            <p><iframe src="https://www.desmos.com/calculator/fqkp8ulyz7?embed" width="700px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe></p>
         </div>
     </div>
 
     <div class="USApicture"></div>
 
     <div class="USAtitle">
-        W H A T &nbsp;T H I S &nbsp;M E A N S &nbsp;A B O U T&nbsp; T H E&nbsp; U S A
+       U N I T E D&nbsp; &nbsp;S T A T E S
         <div class="USA">
             time to die bois
 
