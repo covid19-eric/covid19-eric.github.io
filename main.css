@@ -38,6 +38,7 @@ li {
     body .parallaxbackground {
         margin: 0;
         width: 100vw;
+        background-attachment: scroll;
     }
     body .maintitle {
         font-size: 8vw;
@@ -91,10 +92,10 @@ li {
         height: 25vh;
         min-width: 100%;
         min-height: 100%;
-        background-attachment: fixed;
+        background-attachment: scroll;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         overflow: hidden;
         margin: 0;
         padding: 0px;
