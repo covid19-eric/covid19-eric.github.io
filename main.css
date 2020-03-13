@@ -175,6 +175,21 @@ li {
     top: 85%;
 }
 
+.coronaimage {
+    position: relative;
+    width: 20vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    left: 0;
+}
+
+.coronaimage2 {
+    position: relative;
+    width: 20vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
+}
+
 .introtitle,
 .chinatitle,
 .southkoreatitle,
