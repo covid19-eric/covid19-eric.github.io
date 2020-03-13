@@ -26,12 +26,17 @@ li {
 /*mobile optimization */
 
 @media only screen and (max-device-width: 480px) {
-    body {
+    html {
         overflow-x: hidden;
+        width: 1040px;
+    }
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+        width: 100%;
     }
     body .parallaxbackground {
         margin: 0;
-        max-width: 100%;
     }
     body .maintitle {
         font-size: 8vw;
