@@ -188,8 +188,9 @@ li {
     line-height: 25px;
     margin-top: 50px;
     margin-left: 50px;
-    margin-bottom: 50px;
-    font-size: 15px;
+    margin-bottom: 70px;
+    margin-right: 50px;
+    font-size: 1.3vw;
 }
 
 .graph {
