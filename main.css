@@ -157,19 +157,19 @@ li {
 }
 
 .chinapicture {
-    background-image: url("https://www.fodors.com/wp-content/uploads/2019/04/HERO_ChinaCitiesByTrain_Hero_shutterstock_324673247.jpg");
+    background-image: url("https://dreambigfilm.com/wp-content/uploads/2016/12/db_12_shanghaisunrise.jpg");
 }
 
 .southkoreapicture {
-    background-image: url("https://media.cntraveler.com/photos/5a70f9d68af0dc48d25daf9f/master/pass/Haedong-Yonggungsa-Temple-GettyImages-874460458.jpg");
+    background-image: url("https://i.pinimg.com/originals/c4/dd/ae/c4ddae22b66b019e3c13eaa5fc072f05.jpg");
 }
 
 .italypicture {
-    background-image: url("https://images.prismic.io/indiecampers-demo/46193e66ca36e4019dedae38a9f50e4424bea864_italian-alps.jpg?auto=compress,format");
+    background-image: url("https://i.pinimg.com/originals/a7/fd/a2/a7fda2242973d8a81eb5a86b21c4a835.jpg");
 }
 
 .USApicture {
-    background-image: url("https://512pixels.net/wp-content/uploads/2019/10/10-15-2-Morning.jpg")
+    background-image: url("https://wallpaperaccess.com/full/52939.jpg")
 }
 
 .intro,
@@ -178,7 +178,7 @@ li {
 .italy,
 .USA {
     font-family: 'Work Sans', sans-serif;
-    line-height: 50px;
+    line-height: 25px;
     margin: 50px;
     font-size: 15px;
 }
