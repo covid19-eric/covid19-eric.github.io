@@ -28,27 +28,34 @@ li {
 @media only screen and (max-device-width: 480px) {
     html {
         overflow-x: hidden;
-        width: 1040px;
+        width: 100vw;
     }
     body {
         max-width: 100%;
         overflow-x: hidden;
-        width: 100%;
+        width: 100vw;
     }
     body .parallaxbackground {
         margin: 0;
     }
     body .maintitle {
         font-size: 8vw;
+        width: 100vw;
     }
     body .credits {
         font-size: 3vw;
+        width: 100vw;
     }
     body .readmoretext {
         font-size: 3vw;
+        width: 100vw;
     }
     body .scrolldownbutton {
         right: 0;
+        width: 100vw;
+    }
+    body .doubledownarrow {
+        width: 100vw;
     }
 }
 
@@ -89,7 +96,7 @@ li {
     text-align: center;
     font-family: 'Work Sans', sans-serif;
     font-size: 1.4vw;
-    padding: 0.7vw;
+    padding-top: 0.7vw;
     color: #ffffff;
 }
 
@@ -179,7 +186,9 @@ li {
 .USA {
     font-family: 'Work Sans', sans-serif;
     line-height: 25px;
-    margin: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
     font-size: 15px;
 }
 
