@@ -57,6 +57,19 @@ li {
     body .doubledownarrow {
         width: 100vw;
     }
+    body .intro,
+    body .china,
+    body .southkorea,
+    body .italy,
+    body .USA {
+        font-family: 'Work Sans', sans-serif;
+        line-height: 25px;
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-bottom: 100px;
+        margin-right: 50px;
+        font-size: 2vw;
+    }
 }
 
 .parallaxbackground {
