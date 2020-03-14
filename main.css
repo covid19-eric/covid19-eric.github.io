@@ -89,6 +89,7 @@ nav a:hover::before {
     }
     body .aboutimage {
         background-attachment: scroll;
+        background-position: 0 0vh;
     }
     body .parallaxbackground {
         margin: 0;
