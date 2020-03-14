@@ -197,7 +197,7 @@ li {
 .USAtitle {
     font-family: 'Work Sans', sans-serif;
     margin-left: 100px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     margin-top: 50px;
     font-size: 35px;
     padding-top: 50px;
@@ -240,8 +240,8 @@ li {
 
 .intro {
     font-family: 'Work Sans', sans-serif;
-    line-height: 25px;
-    margin-top: 100px;
+    line-height: 2.5vw;
+    margin-top: 50px;
     margin-left: 100px;
     margin-bottom: 100px;
     margin-right: 100px;
@@ -253,8 +253,8 @@ li {
 .italy,
 .USA {
     font-family: 'Work Sans', sans-serif;
-    line-height: 25px;
-    margin-top: 100px;
+    line-height: 2.5vw;
+    margin-top: 50px;
     margin-left: 0px;
     margin-bottom: 100px;
     margin-right: 100px;
