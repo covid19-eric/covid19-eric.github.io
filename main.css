@@ -240,12 +240,12 @@ li {
 
 .intro {
     font-family: 'Work Sans', sans-serif;
-    line-height: 2.5vw;
+    line-height: 2vw;
     margin-top: 50px;
     margin-left: 100px;
     margin-bottom: 100px;
     margin-right: 100px;
-    font-size: 1.3vw;
+    font-size: 1vw;
 }
 
 .china,
@@ -253,12 +253,12 @@ li {
 .italy,
 .USA {
     font-family: 'Work Sans', sans-serif;
-    line-height: 2.5vw;
+    line-height: 2vw;
     margin-top: 50px;
     margin-left: 0px;
     margin-bottom: 100px;
     margin-right: 100px;
-    font-size: 1.3vw;
+    font-size: 1vw;
 }
 
 .graph {
