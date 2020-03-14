@@ -24,6 +24,7 @@ li {
 
 nav {
     float: left;
+    background-color: rgba(255, 255, 255, 0.000001);
 }
 
 nav li {
@@ -36,13 +37,9 @@ nav li {
 
 nav a {
     font-family: 'Work Sans', sans-serif;
-    color: #212529;
+    color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
-}
-
-nav a:hover {
-    color: #525252;
 }
 
 nav a::before {
@@ -52,7 +49,7 @@ nav a::before {
     width: 0%;
     top: 0;
     position: absolute;
-    background-color: #212529;
+    background-color: #ffffff;
     transition: all ease-in-out 250ms;
 }
 
@@ -69,7 +66,6 @@ nav a:hover::before {
         width: 100vw;
     }
     body {
-        max-width: 100%;
         overflow-x: hidden;
         width: 100vw;
     }
@@ -128,8 +124,6 @@ nav a:hover::before {
     body .USApicture {
         width: 100%;
         height: 25vh;
-        min-width: 100%;
-        min-height: 100%;
         background-attachment: scroll;
         background-position: center;
         background-repeat: no-repeat;
@@ -176,8 +170,6 @@ nav a:hover::before {
     /* Create the parallax scrolling effect */
     width: 100%;
     height: 100vh;
-    min-width: 100%;
-    min-height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -190,8 +182,18 @@ nav a:hover::before {
 
 .aboutimage {
     background-image: url("https://www.nasa.gov/sites/default/files/thumbnails/image/blackmarble2016-1500px_0.jpg");
+    /* Set a specific height */
+    /* Create the parallax scrolling effect */
     width: 100%;
-    height: 260px;
+    height: 40vh;
+    background-attachment: fixed;
+    background-position: 0 -10vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin: 0;
+    padding: 0px;
+    overflow-x: hidden;
 }
 
 .maintitle {
@@ -208,7 +210,7 @@ nav a:hover::before {
 .abouttitle {
     position: absolute;
     left: 0;
-    top: 15%;
+    top: 15vh;
     width: 100%;
     text-align: center;
     font-family: 'Work Sans', sans-serif;
@@ -217,7 +219,7 @@ nav a:hover::before {
 }
 
 .credits {
-    position: relative;
+    position: absolute;
     left: 0;
     top: 60%;
     width: 100%;
@@ -357,7 +359,6 @@ nav a:hover::before {
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-right: 15px;
     background-color: #212529;
 }
 
