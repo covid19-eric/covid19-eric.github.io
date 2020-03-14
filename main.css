@@ -270,13 +270,31 @@ li {
 
 .footer {
     position: absolute;
-    left: 0;
     width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 15px;
+    background-color: #212529;
+}
+
+.copyright {
+    left: 0;
+    width: 100vw;
     text-align: center;
     font-family: 'Work Sans', sans-serif;
-    font-size: 10px;
-    padding: 30px;
-    color: #000000;
+    font-size: 1vw;
+    padding: 1vw;
+    color: #ffffff;
+}
+
+.contact {
+    left: 0;
+    width: 100vw;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1vw;
+    padding: 1vw;
+    color: #ffffff;
 }
 
 #date {
