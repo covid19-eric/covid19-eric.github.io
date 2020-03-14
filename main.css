@@ -101,6 +101,35 @@ li {
         padding: 0px;
         overflow-x: hidden;
     }
+    body .footer {
+        position: absolute;
+        width: 100%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-right: 15px;
+        background-color: #212529;
+        overflow-x: hidden;
+    }
+    body .copyright {
+        left: 0;
+        width: 100vw;
+        text-align: center;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 1vw;
+        padding: 1vw;
+        color: #ffffff;
+        overflow-x: hidden;
+    }
+    body .contact {
+        left: 0;
+        width: 100vw;
+        text-align: center;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 1vw;
+        padding: 1vw;
+        color: #ffffff;
+        overflow-x: hidden;
+    }
 }
 
 .parallaxbackground {
