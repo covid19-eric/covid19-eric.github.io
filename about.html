@@ -9,53 +9,94 @@
     <link rel="stylesheet" href="main.css">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
     <link rel="icon" href="https://i.imgur.com/I1Ne4Ih.png">
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
 </head>
 
-<div>
-    <span><img class="aboutimage"
-            src="https://lh3.googleusercontent.com/XpOgKIwa5xclaCZ5bjqIruhKvBUQE_to9uVY9o5A2mRHFw00mvYl287VLCZ4Vus=s2600"></span>
-</div>
 
-<div id="main2">
-    <div class="introtitle">
-        A B O U T
-    </div>
-    <div class="intro">
-        <p>
-            Coronavirus is mainly spread through respiratory droplets. Remember to cover your coughs and sneezes, wash your hands, and stay home if you are sick. Face masks are not recommended unless you are contagious. You should seek medical attention if you are
-            having difficulty breathhing or have a fever of 101ºF or higher. More information can be found on the
-            <a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html" target="_blank">Center for Disease Control and Prevention's (CDC) website.</a>
-        </p>
-
-        <div>
-            <span><img class="coronaimage"
-                    src="https://www.keckmedicine.org/wp-content/uploads/2020/03/coronavirus-img.png"></span>
-            <span><img class="coronaimage2"
-                    src="https://web.mit.edu/covid19/img/WashStayHomeCoverMedicalAttn.jpg"></span>
+<body>
+    <div class="parallaxbackground">
+        <div class="maintitle">
+            ABOUT
         </div>
 
-        <p>
-            The CDC has come up with several models predicting how COVID-19 could spread within the United States. Unfortunately, none of these models are available to the public. 
-            We decided to create our own models of possible spread in the United States. We hope our models can help you understand how quickly the virus might spread, how many people it might infect, and how long it might last.
-        </p>
-
-        <p>
-            Our first set of projections uses the Kermack-McKendrick logistic model. It is a SIR model, which stands for susceptible, infective, and removed.
-            <ol>
-                <li>Susceptible: Those who could become infected</li>
-                <li>Infective: Those who have the disease and can transmit it</li>
-                <li>Removed: Those who cannot become infected or transmit the disease</li>
-            </ol>
-            Not everybody will necessarily become infected due to factors such as effective cleaning, quarantine, and eventual herd immunity. If you would like to read more about the equations used to create this model, click 
-            <a href="https://mathworld.wolfram.com/Kermack-McKendrickModel.html" target="_blank">here.</a>
-        </p>
-        
-        <p>
-            Our second set of projections uses logistic regression curves from other developed countries that are already further into the outbreak. We chose China, South Korea, and Italy because they are all in different phases of the outbreak. 
-            Based on the current data, our logistic regression curves show that China is at their maximum amount of cases for the forseeable future, South Korea is gradually approaching their maximum, and Italy is less than halfway to their projected maximum. 
-            The data we used for this is the total number of confirmed cases, however experts suggest that the actual number of cases could be three times higher. This is due to the lack of testing kits in many regions in addition to the often asymptomatic 
-            nature of COVID-19.√
-        </p>
+        <button type="button" class="scrolldownbutton" onClick="document.getElementById('main2').scrollIntoView();">
+            <div class="readmoretext">
+                <span>Read More</span>
+            </div>
+            <div class="doubledownarrow">
+                <svg xmlns="https://www.w3.org/2000/svg" width="3.4vw" height="3.4vw" viewBox="0 0 172 172"
+                    style=" fill:#000000;">
+                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                        font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                        style="mix-blend-mode: normal">
+                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                        <g fill="#ffffff">
+                            <path
+                                d="M150.5,35.83333l-10.75,-10.75l-53.75,53.22325l-53.75,-53.22325l-10.75,10.75l64.5,64.5z">
+                            </path>
+                            <path
+                                d="M150.5,82.41667l-10.75,-10.75l-53.75,53.48842l-53.75,-53.48842l-10.75,10.75l64.5,64.5z">
+                            </path>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+        </button>
     </div>
 
-</div>
+
+
+
+
+    <div id="main2">
+        <div class="introtitle">
+            A B O U T
+        </div>
+        <div class="intro">
+            <p>
+                Coronavirus is mainly spread through respiratory droplets. Remember to cover your coughs and sneezes, wash your hands, and stay home if you are sick. Face masks are not recommended unless you are contagious. You should seek medical attention if you are
+                having difficulty breathhing or have a fever of 101ºF or higher. More information can be found on the
+                <a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html" target="_blank">Center for Disease
+                    Control and Prevention's (CDC) website.</a>
+            </p>
+
+            <div>
+                <span><img class="coronaimage"
+                        src="https://www.keckmedicine.org/wp-content/uploads/2020/03/coronavirus-img.png"></span>
+                <span><img class="coronaimage2"
+                        src="https://web.mit.edu/covid19/img/WashStayHomeCoverMedicalAttn.jpg"></span>
+            </div>
+
+            <p>
+                The CDC has come up with several models predicting how COVID-19 could spread within the United States. Unfortunately, none of these models are available to the public. We decided to create our own models of possible spread in the United States. We hope
+                our models can help you understand how quickly the virus might spread, how many people it might infect, and how long it might last.
+            </p>
+
+            <p>
+                Our first set of projections uses the Kermack-McKendrick logistic model. It is a SIR model, which stands for susceptible, infective, and removed.
+                <ol>
+                    <li>Susceptible: Those who could become infected</li>
+                    <li>Infective: Those who have the disease and can transmit it</li>
+                    <li>Removed: Those who cannot become infected or transmit the disease</li>
+                </ol>
+                Not everybody will necessarily become infected due to factors such as effective cleaning, quarantine, and eventual herd immunity. If you would like to read more about the equations used to create this model, click
+                <a href="https://mathworld.wolfram.com/Kermack-McKendrickModel.html" target="_blank">here.</a>
+            </p>
+
+            <p>
+                Our second set of projections uses logistic regression curves from other developed countries that are already further into the outbreak. We chose China, South Korea, and Italy because they are all in different phases of the outbreak. Based on the current
+                data, our logistic regression curves show that China is at their maximum amount of cases for the forseeable future, South Korea is gradually approaching their maximum, and Italy is less than halfway to their projected maximum. The data
+                we used for this is the total number of confirmed cases, however experts suggest that the actual number of cases could be three times higher. This is due to the lack of testing kits in many regions in addition to the often asymptomatic
+                nature of COVID-19.√
+            </p>
+        </div>
+
+    </div>
+</body>

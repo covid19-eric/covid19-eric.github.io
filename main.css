@@ -22,6 +22,44 @@ li {
     list-style: square;
 }
 
+nav {
+    float: left;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 35px;
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav a {
+    font-family: 'Work Sans', sans-serif;
+    color: #212529;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #525252;
+}
+
+nav a::before {
+    content: ' ';
+    display: block;
+    height: 3px;
+    width: 0%;
+    top: 0;
+    position: absolute;
+    background-color: #212529;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%
+}
+
 
 /*mobile optimization */
 
