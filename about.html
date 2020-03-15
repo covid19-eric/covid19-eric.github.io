@@ -35,10 +35,8 @@
 
             <div class="intro">
                 <p>
-                    Coronavirus is mainly spread through respiratory droplets. Remember to cover your coughs and sneezes, wash your hands, and stay home if you are sick. Face masks are not recommended unless you are contagious. You should seek medical attention if you are
-                    having difficulty breathhing or have a fever of 101ºF or higher. More information can be found on the
-                    <a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html" target="_blank">Center for Disease
-                        Control and Prevention's (CDC) website.</a>
+                    COVID-19 is mainly spread through respiratory droplets. Remember to cover your coughs and sneezes, wash your hands, and stay home if you are sick. Face masks are not recommended unless you are contagious. You should seek medical attention if you are
+                    having difficulty breathhing or have a fever of 101ºF or higher. More information can be found on the <a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html" target="_blank">Center for Disease Control and Prevention's (CDC) website.</a>
                 </p>
 
                 <div>
@@ -54,21 +52,30 @@
                 </p>
 
                 <p>
-                    Our first set of projections uses the Kermack-McKendrick logistic model. It is a SIR model, which stands for susceptible, infective, and removed.
+                    Our first set of projections uses the Kermack-McKendrick logistic model. It is a SIR model, which stands for susceptible, infective, and removed. This is one of the most frequently used epidemiological models.
                     <ol>
                         <li>Susceptible: Those who could become infected</li>
                         <li>Infective: Those who have the disease and can transmit it</li>
                         <li>Removed: Those who cannot become infected or transmit the disease</li>
                     </ol>
-                    Not everybody will necessarily become infected due to factors such as effective cleaning, quarantine, and eventual herd immunity. If you would like to read more about the equations used to create this model, click
+                    We created three different scenarios: a best-case scenario, expected scenario, and worst-case scenario. In the best case scenario, we estimated that the average infected person would go on to infect 2.24 susceptible people and recover in two weeks. 
+                    In the worst-case scenario, we estimated that the average infected person would go on to infect 3.58 susceptible people and recover in four weeks. The expected scenario is an average of the two. These numbers are based off of 
+                    <a href="https://www.ijidonline.com/article/S1201-9712(20)30053-9/fulltext" target="_blank">this paper</a> and information from the World Health Organization.
+                    This model assumes that not everybody will necessarily become infected due to factors such as effective cleaning, quarantine, and eventual herd immunity. If you would like to read more about the equations used to create this model, click
                     <a href="https://mathworld.wolfram.com/Kermack-McKendrickModel.html" target="_blank">here.</a>
                 </p>
 
                 <p>
                     Our second set of projections uses logistic regression curves from other developed countries that are already further into the outbreak. We chose China, South Korea, and Italy because they are all in different phases of the outbreak. Based on the current
-                    data, our logistic regression curves show that China is at their maximum amount of cases for the forseeable future, South Korea is gradually approaching their maximum, and Italy is less than halfway to their projected maximum. The
-                    data we used for this is the total number of confirmed cases, however experts suggest that the actual number of cases could be three times higher. This is due to the lack of testing kits in many regions in addition to the often asymptomatic
-                    nature of COVID-19.
+                    data, our logistic regression curves show that China is at their maximum amount of cases for the foreseeable future, South Korea is gradually approaching their maximum, and Italy is less than halfway to their projected maximum. We also created 
+                    a graph for the projected number of cases in the United States based on their current number of reported cases. The
+                    data we used for this is the total number of confirmed cases, however experts suggest that the actual number of cases could be several times higher. This is because of the shortage of testing kits in many countries, combined with fact that 
+                    a large number cases go underreported because most asymptomatic and mild cases do not require medical treatment or diagnosis. Finally, it is important to note that we could see an influx of cases in these countries as they reopen their schools 
+                    and businesses. The regression curves of the three countries can be found at the bottom of the home page.
+                </p>
+
+                <p>
+                    We would like to thank the Johns Hopkins Center for Systems Science and Engineering for their meticulous collection of data and Hans Nesse for his information on the SIR model.
                 </p>
             </div>
 
