@@ -357,6 +357,39 @@ nav a:hover::before {
     font-size: 1vw;
 }
 
+.USAeverygraphtitle {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2vw;
+    margin: 3vw 0;
+    text-transform: uppercase;
+}
+
+.USA .USAgraphandtitles {
+    text-align: center;
+}
+
+.USA .yaxis {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1vw;
+    text-transform: uppercase;
+    transform: rotate(270deg);
+    position: relative;
+    display: inline-block;
+}
+
+.USA .xaxis {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1vw;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.USAgraphpic {
+    width: 40vw;
+    vertical-align: middle;
+    padding-right: 5vw;
+}
+
 .graph {
     display: block;
     margin-left: auto;
