@@ -357,18 +357,19 @@ nav a:hover::before {
     font-size: 1vw;
 }
 
-.USAeverygraphtitle {
+.USAeverygraphtitle,
+.chinagraphtitle {
     font-family: 'Work Sans', sans-serif;
     font-size: 2vw;
     margin: 3vw 0;
     text-transform: uppercase;
 }
 
-.USA .USAgraphandtitles {
+.graphandtitles {
     text-align: center;
 }
 
-.USA .yaxis {
+.yaxis {
     font-family: 'Work Sans', sans-serif;
     font-size: 1vw;
     text-transform: uppercase;
@@ -377,11 +378,12 @@ nav a:hover::before {
     display: inline-block;
 }
 
-.USA .xaxis {
+.xaxis {
     font-family: 'Work Sans', sans-serif;
     font-size: 1vw;
     text-transform: uppercase;
     position: relative;
+    text-align: center;
 }
 
 .USAgraphpic {
@@ -390,11 +392,10 @@ nav a:hover::before {
     padding-right: 5vw;
 }
 
-.graph {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+.chinagraphpic {
+    width: 50vw;
+    vertical-align: middle;
+    padding-right: 10vw;
 }
 
 .footer {
