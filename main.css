@@ -155,6 +155,11 @@ nav a:hover::before {
         padding: 0px;
         overflow-x: hidden;
     }
+    body .desmosgraphpic {
+        width: 50vw;
+        vertical-align: middle;
+        padding-right: 0vw;
+    }
     body .footer {
         position: absolute;
         width: 100%;
