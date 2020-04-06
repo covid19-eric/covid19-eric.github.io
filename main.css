@@ -312,6 +312,7 @@ nav a:hover::before {
     margin-top: 50px;
     font-size: 35px;
     padding-top: 50px;
+    font-weight: 500;
 }
 
 .chinapicture,
@@ -361,6 +362,7 @@ nav a:hover::before {
     margin-bottom: 100px;
     margin-right: 0;
     font-size: 1vw;
+    font-weight: 300;
 }
 
 .USAeverygraphtitle,
@@ -369,6 +371,7 @@ nav a:hover::before {
     font-size: 1.5vw;
     margin: 3vw 0;
     text-transform: uppercase;
+    font-weight: 400;
 }
 
 .graphandtitles {
