@@ -291,7 +291,8 @@ nav a:hover::before {
 .coronaimage {
     position: relative;
     width: 15vw;
-    margin-left: 15vw;
+    margin-right: 10vw;
+    margin-left: 10vw;
 }
 
 .coronaimage2 {
