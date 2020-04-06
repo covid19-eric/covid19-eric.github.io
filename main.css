@@ -192,7 +192,39 @@ nav a:hover::before {
 }
 
 .parallaxbackground {
-    background-image: url("https://www.nasa.gov/sites/default/files/thumbnails/image/blackmarble2016-1500px_0.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.nasa.gov/sites/default/files/thumbnails/image/blackmarble2016-1500px_0.jpg");
+    /* Set a specific height */
+    /* Create the parallax scrolling effect */
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin: 0;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.USAbackground {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.shopify.com/s/files/1/0053/6513/7472/products/newyorkcitysunset911.jpg?v=1544036357");
+    /* Set a specific height */
+    /* Create the parallax scrolling effect */
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin: 0;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.worldbackground {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("https://i.imgur.com/R1PvbK3.png");
     /* Set a specific height */
     /* Create the parallax scrolling effect */
     width: 100%;
@@ -232,6 +264,30 @@ nav a:hover::before {
     font-family: 'Work Sans', sans-serif;
     font-size: 5vw;
     color: #ffffff;
+}
+
+.USAmaintitle {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 5vw;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.worldmaintitle {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 5vw;
+    color: #ffffff;
+    text-transform: uppercase;
 }
 
 .abouttitle {
@@ -300,6 +356,20 @@ nav a:hover::before {
     width: 15vw;
 }
 
+
+/* even though there is no title, this is here for margins*/
+
+.hometitle {
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 35px;
+    padding-top: 50px;
+    font-weight: 500;
+}
+
 .introtitle,
 .chinatitle,
 .southkoreatitle,
@@ -348,6 +418,22 @@ nav a:hover::before {
 
 .USApicture {
     background-image: url("https://wallpaperaccess.com/full/52939.jpg")
+}
+
+.hometext {
+    font-family: 'Work Sans', sans-serif;
+    line-height: 3vw;
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-bottom: 100px;
+    margin-right: 40vw;
+    font-size: 1.1vw;
+    font-weight: 300;
+}
+
+.homeimage {
+    width: 30vw;
+    float: right;
 }
 
 .intro,

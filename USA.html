@@ -1,1 +1,146 @@
+<!DOCTYPE html>
 
+<html lang="en" dir="ltr">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.1">
+    <meta charset="utf-8">
+    <title>USA</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://i.imgur.com/I1Ne4Ih.png">
+
+
+</head>
+
+<body>
+
+
+    <div class="USAbackground">
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/USA">USA</a></li>
+                <li><a href="/world">World</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </nav>
+        <div class="USAmaintitle">
+            United States
+        </div>
+        <div class="credits">
+            Specific models of the United States
+        </div>
+
+
+        <button type="button" class="scrolldownbutton" onClick="document.getElementById('USAbegin').scrollIntoView();">
+            <div class="readmoretext">
+                <span>Read More</span>
+            </div>
+            <div class="doubledownarrow">
+                <svg xmlns="https://www.w3.org/2000/svg" width="3.4vw" height="3.4vw" viewBox="0 0 172 172"
+                    style=" fill:#000000;">
+                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                        font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                        style="mix-blend-mode: normal">
+                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                        <g fill="#ffffff">
+                            <path
+                                d="M150.5,35.83333l-10.75,-10.75l-53.75,53.22325l-53.75,-53.22325l-10.75,10.75l64.5,64.5z">
+                            </path>
+                            <path
+                                d="M150.5,82.41667l-10.75,-10.75l-53.75,53.48842l-53.75,-53.48842l-10.75,10.75l64.5,64.5z">
+                            </path>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+        </button>
+    </div>
+
+    <div id="USAbegin" class="USAtitle">
+        U N I T E D&nbsp; &nbsp;S T A T E S
+        <div class="USA">
+
+            <p>
+                These graphs use the SIR model, which stands for susceptible, infective, and recovered.
+                <ol>
+                    <li>Susceptible: Those who could become infected</li>
+                    <li>Infective: Those who have the disease and can transmit it</li>
+                    <li>Recovered: Those who have developed immunity to the disease</li>
+                </ol>For more information, check out the <a href="/about">about page.</a>
+            </p>
+
+            <div class="USAeverygraphtitle">Best-Case Scenario</div>
+            <div class="graphandtitles">
+                <span>
+                    <h3 class="yaxis">Population</h3>
+                </span>
+                <span><img class="USAgraphpic" src="https://i.imgur.com/X1UYw8w.png"></span>
+                <div>
+                    <h3 class="xaxis">Time (Days After March 15)</h3>
+                </div>
+            </div>
+            <p>
+                In this best-case scenario, an infective would infect 2.24 susceptibles on average. This low number is only possible if large events are cancelled and infectives quarantine themselves effectively. Effective quarantining is the best way to extinguish the
+                disease and create herd immunity. As seen in the graph, about 50 million people will remain susceptible by the disease in the long run, meaning they will not have been infected by the disease. This scenario also assumes that over 80% of
+                cases are mild, which greatly reduces the recovery time and hospital load. If all citizens comply with effective quarantine methods and the government is able to heavily restrict travel and large events, the outbreak could be contained
+                with even better results than what this model currently predicts.
+            </p>
+
+            <div class="USAeverygraphtitle">Expected Scenario</div>
+            <div class="graphandtitles">
+                <span>
+                    <h3 class="yaxis">Population</h3>
+                </span>
+                <span><img class="USAgraphpic" src="https://i.imgur.com/K54vImu.png"></span>
+                <div>
+                    <h3 class="xaxis">Time (Days After March 15)</h3>
+                </div>
+            </div>
+            <p>
+                In this expected scenario, an infective would infect 2.91 susceptibles on average. This assumes that not everybody is able to quarantine themselves effectively and a few large events may not be cancelled. Unfortunately, even this small of a change leads
+                to 50% decline in the number of people who will not be infected: 50 million to 25 million. The model assumes that approximately 80% of cases are mild, which will result in a larger load for the healthcare system and more fatalities.
+            </p>
+
+            <div class="USAeverygraphtitle">Worst-Case Scenario</div>
+            <div class="graphandtitles">
+                <span>
+                    <h3 class="yaxis">Population</h3>
+                </span>
+                <span><img class="USAgraphpic" src="https://i.imgur.com/yBsQ5Zb.png"></span>
+                <div>
+                    <h3 class="xaxis">Time (Days After March 15)</h3>
+                </div>
+            </div>
+            <p>
+                In this worst-case scenario, an infective would infect 3.58 susceptibles on average. The model shows what might happen if many people do not properly quarantine themselves and large events are not shut down before it is too late. As shown by the graph,
+                the outbreak will still be ongoing after 8 months. This will undoubtedly overwhelm the American healthcare system, and this will result in a large increase in fatality rates and a prolonged recovery period. The number of mild cases would
+                be under 80%.
+            </p>
+
+            <div class="USAeverygraphtitle">Current Situation</div>
+            <p>
+                The United States is currently in the early stages of the outbreak, experiencing an exponential increase in the number of cases. Yesterday, the United States reported 548 new cases, a 25.15% increase that brings the total number of confirmed cases to
+                2,727. The President declared a national state of emergency on 3/13, effectively providing more funding to deal with the outbreak. Many schools have already cancelled their classes and moved to an online format. Several large events have
+                been cancelled as well, including most sports.
+            </p>
+        </div>
+
+    </div>
+
+
+    <footer class="footer">
+        <div class="copyright">
+            <p>
+                © 2020 Eric Feng & Ian Tsai
+            </p>
+        </div>
+        <div class="contact">
+            <p>Contact Us: <a href="mailto:graphcoronavirus@gmail.com">graphcoronavirus@gmail.com</a></p>
+
+        </div>
+    </footer>
+
+</body>
